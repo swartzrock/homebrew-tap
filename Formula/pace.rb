@@ -6,20 +6,28 @@ class Pace < Formula
   license "ISC"
 
   on_macos do
-    if Hardware::CPU.arm?
-      url "https://github.com/swartzrock/pace/releases/download/0.1.0/pace-macos-arm64.tar.bz2"
-      sha256 "f6b042d456e776620685124b15bf0bb34daf59d21179421cccf76e8a8f769680"
+    url "https://github.com/swartzrock/pace/releases/download/0.1.6/pace-macos-x64.tar.bz2"
+    sha256 "5703298e3e87967b99c0500c35d436f3c055e47620514122ef4dfc3385fe15f6"
+
+    def install
+      bin.install "pace-macos-x64" => "pace"
+    end
+  end
+  on_linux do 
+    on_arm do
+      url "https://github.com/swartzrock/pace/releases/download/0.1.6/pace-linux-arm64.tar.bz2"
+      sha256 "f89fafdfe5580f1e1129dd90be467dfb4b61422d3069c0b227388b8fbcda4d33"
 
       def install
-        bin.install "pace-macos-arm64" => "pace"
+        bin.install "pace-linux-arm64" => "pace"
       end
     end
-    if Hardware::CPU.intel?
-      url "https://github.com/swartzrock/pace/releases/download/0.1.0/pace-macos-x64.tar.bz2"
-      sha256 "1dcb2b67ba69c69f7f8733da2721e2c9632d33160567a3bdd8743a65cad7c94c"
+    if on_intel?
+      url "https://github.com/swartzrock/pace/releases/download/0.1.6/pace-linux-x64.tar.bz2"
+      sha256 "44cf24bc988bb1ec6331785d1adc1bdc766e4f495752c8e65cf3857c95d55eee"
 
       def install
-        bin.install "pace-macos-x64" => "pace"
+        bin.install "pace-linux-x64" => "pace"
       end
     end
   end
