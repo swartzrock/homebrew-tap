@@ -5,31 +5,31 @@
 class Pace < Formula
   desc "Visual timer for the command line"
   homepage "https://github.com/swartzrock/pace"
-  url "https://github.com/swartzrock/pace/archive/0.2.0.tar.gz"
-  sha256 "c8001aa68e4217bf200f4b2c263023ddc7ba494d5208651f84a4bcb689f034d2"
+  url "https://github.com/swartzrock/pace/archive/0.3.0.tar.gz"
+  sha256 "183ce1aa8e7673509c220029a88cddc45d88ccc39eb65b1b1decfaad9a371ee2"
   license "ISC"
 
   on_macos do
     on_intel do
-      url "https://github.com/swartzrock/pace/releases/download/0.2.0/pace-0.2.0-darwin-amd64.tar.gz"
-      sha256 "62bacf22f3b1e5da1ec60b04adc3ccf0366e06b9b2b8d960198f67f39bf83569"
+      url "https://github.com/swartzrock/pace/releases/download/0.3.0/pace-0.3.0-darwin-amd64.tar.gz"
+      sha256 "4e8e47a7c681b92181c68a19736d50187a3da0464f0d38e9438412d839a99d57"
     end
 
     on_arm do
-      url "https://github.com/swartzrock/pace/releases/download/0.2.0/pace-0.2.0-darwin-arm64.tar.gz"
-      sha256 "62bacf22f3b1e5da1ec60b04adc3ccf0366e06b9b2b8d960198f67f39bf83569"
+      url "https://github.com/swartzrock/pace/releases/download/0.3.0/pace-0.3.0-darwin-arm64.tar.gz"
+      sha256 "4e8e47a7c681b92181c68a19736d50187a3da0464f0d38e9438412d839a99d57"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/swartzrock/pace/releases/download/0.2.0/pace-0.2.0-linux-amd64.tar.gz"
-      sha256 "67e38d4cb54635418c4d82e9fea149d0590ee4c0e30f81ff612a681a17e75041"
+      url "https://github.com/swartzrock/pace/releases/download/0.3.0/pace-0.3.0-linux-amd64.tar.gz"
+      sha256 "875917d012050300e8686acf997dce1a1374737ef1b81981ed02c28b524d186c"
     end
 
     on_arm do
-      url "https://github.com/swartzrock/pace/releases/download/0.2.0/pace-0.2.0-linux-arm64.tar.gz"
-      sha256 "20101cf580f0e5cfa19b95a853816b1f419f4c495143a0285844086a575f3e5c"
+      url "https://github.com/swartzrock/pace/releases/download/0.3.0/pace-0.3.0-linux-arm64.tar.gz"
+      sha256 "c912daa37e54cc04e88990360b24a1c46c187455adb3f0223395fc330e1390c5"
     end
   end
 
