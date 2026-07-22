@@ -1,10 +1,16 @@
 # homebrew-tap
 
-My Homebrew tap of useful apps.
+A few useful apps.
 
-## llm-now
+## llm-now - A tiny CLI for the local models you already run
 
 ```sh
-brew tap swartzrock/tap
-brew install llm-now
+brew install swartzrock/tap/llm-now
 ```
+
+## pace - A visual timer for the command line
+
+```sh
+brew install swartzrock/tap/pace
+```
+
