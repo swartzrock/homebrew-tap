@@ -4,30 +4,30 @@
 class LlmNow < Formula
   desc "Make one text-generation call through an available LLM provider"
   homepage "https://github.com/swartzrock/llm-now"
-  version "2.4.0"
+  version "2.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.0/llm-now-v2.4.0-macos-arm64.zip"
-      sha256 "015edfcb0e181df25db9f4010421ae5d1783af6028eba892b74570bc723358b3"
+      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.1/llm-now-v2.4.1-macos-arm64.zip"
+      sha256 "8e05a0268133de5723add17b33121dd5bbb8c857643d3e2636d1bedf482e4474"
     end
 
     on_intel do
-      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.0/llm-now-v2.4.0-macos-x64.zip"
-      sha256 "ea80fcc58da7160e7078aef813bb44f62bc09142019e0bc2eab581149abf26da"
+      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.1/llm-now-v2.4.1-macos-x64.zip"
+      sha256 "002de86882db7d81a238560eeb74d83e13e5948a185aa573f7f0acf500b02828"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.0/llm-now-v2.4.0-linux-arm64.zip"
-      sha256 "f0e769b30e0b31b8984796d5e180e41814da98565a0387cf592dec01bd48e7dc"
+      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.1/llm-now-v2.4.1-linux-arm64.zip"
+      sha256 "89c650e68537ffcac3a7781a9dc8fc73e7739a5ca057ebd2ff0673c32d921a7b"
     end
 
     on_intel do
-      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.0/llm-now-v2.4.0-linux-x64.zip"
-      sha256 "cd6fec01a110e3fe0b67e0e562beaa8ea39b68113aba8710bcd9a67fe0019c1e"
+      url "https://github.com/swartzrock/llm-now/releases/download/v2.4.1/llm-now-v2.4.1-linux-x64.zip"
+      sha256 "ecfa8338f47b8f00c1361e982df8e87ab24c2701cd6166636612e46ab5085724"
     end
   end
 
